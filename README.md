@@ -1,6 +1,6 @@
 # RTK Query, MSW, Vitest error
 
-This repo is a minimal reproduction of an error when using RTK Query with MSW and Vitest.
+This repo is a minimal reproduction of an error when using RTK Query with MSW and Vitest to demonstrate [https://github.com/reduxjs/redux-toolkit/issues/3254](https://github.com/reduxjs/redux-toolkit/issues/3254).
 
 The RTK Query api is defined in [src/api.ts](src/api.ts) and the test is in [src/App.test.tsx](src/App.test.tsx). The only operation is a `getPosts` query in [src/App.tsx](src/App.tsx), calling a mocked `http://localhost:8000/posts` endpoint.
 
