@@ -34,3 +34,9 @@ In the case of an unhandled error, no tags will be "provided" or "invalidated". 
   code: 'ERR_INVALID_ARG_TYPE'
 }
 ```
+
+## Fix
+
+A working solution is to use `node-fetch` setting it up in [src/setupTests.ts](https://github.com/oidualc/rtkquery-msw-vitest-error/blob/working-solution/src/setupTests.ts).
+
+An implementation can be found in the [working-solution](https://github.com/oidualc/rtkquery-msw-vitest-error/tree/working-solution) branch, where [this commit](https://github.com/oidualc/rtkquery-msw-vitest-error/commit/c8a288fe07095b5d34e3e16d912b969d17925c21) shows the fix.
